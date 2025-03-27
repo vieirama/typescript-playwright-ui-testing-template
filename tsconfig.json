@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "baseUrl": ".",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "paths": {
+        "@pages/*": ["pages/*"],
+        "@lib/*":["lib/*"],
+        "@playwright-config": ["playwright.config"]
+      }
+    }
+}

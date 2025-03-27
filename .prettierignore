@@ -2,7 +2,12 @@ node_modules/
 report-results/
 test-results/
 playwright/.cache/
-dist/
+.github/
 .vscode
 .idea
 .DS_Store
+dist
+
+package-lock.json
+*.md
+.prettierignore

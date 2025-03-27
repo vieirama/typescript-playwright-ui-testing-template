@@ -1,0 +1,19 @@
+{
+    "name": "typescript-playwright-ui-testing-template",
+    "version": "1.0.0",
+    "description": "Typescript and Playwright for UI automation testing",
+    "scripts": {
+      "run_test": "npx playwright test",
+      "run_test:headed": "npx playwright test --headed",
+      "report": "playwright show-report report-results/results.html"
+    },
+    "dependencies": {
+      "@playwright/test": "^1.51",
+      "@typescript-eslint/eslint-plugin": "^8.3.0",
+      "@typescript-eslint/parser": "^8.3.0",
+      "eslint": "^8.57.0",
+      "eslint-plugin-import": "^2.29.1",
+      "typescript": "^5.6.2"
+    }
+}
+  
