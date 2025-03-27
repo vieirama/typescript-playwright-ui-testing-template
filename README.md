@@ -32,10 +32,3 @@ Or headed execution:
 ```commandline
 npm run run_test:headed
 ```
-
-## Container execution
-
-```commandline
-podman build -t typescript-playwright-testing:latest .
-podman run typescript-playwright-testing
-```

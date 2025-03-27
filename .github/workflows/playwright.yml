@@ -30,6 +30,9 @@ jobs:
 
       - name: Install Chrome
         run: npx playwright install-deps chromium
+      
+      - name: Install Libraries
+        run: npm ci
 
       - name: Test using Playwright
         run: npm run run_test
